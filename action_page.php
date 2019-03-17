@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
 <?php
 
 $start = $_GET['start'];
@@ -9,3 +13,6 @@ $response = \Httpful\Request::get($uri)->send();
 
 var_dump($response);
 ?>
+
+  </body>
+</html>
